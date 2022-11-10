@@ -4,7 +4,7 @@
 To develop a convolutional autoencoder for image denoising application.
 
 ## Problem Statement and Dataset
-The image dataset is given and the model must denoise the images and show it with better quality and pixelate it.
+The image dataset is given and the model must denoise the images and show it with better quality and remove the unwanted noises and learn to show the better version of the images.
 ## DESIGN STEPS
 
 ### STEP 1:
