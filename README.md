@@ -1,22 +1,24 @@
-# Convolutional Autoencoder for Image Denoising
-
+## EXP.NO : 07
+## DATE   : 
+# <h1 align ="center">Convolutional Autoencoder for Image Denoising</h1>
 ## AIM
 To develop a convolutional autoencoder for image denoising application.
 
 ## Problem Statement and Dataset
 The image dataset is given and the model must denoise the images and show it with better quality and remove the unwanted noises and learn to show the better version of the images.
-## DESIGN STEPS
 
+## DESIGN STEPS
 ### STEP 1:
 Download and split the dataset into training and testing datasets
 ### STEP 2:
 rescale the data as that the training is made easy
 ### STEP 3:
 create the model for the program , in this experiment we create to networks , one for encoding and one for decoding 
-Write your own steps
 
 ## PROGRAM
-```python
+```py
+#DEVELOPED BY : M.Lokesh Krishnaa 
+#REG. NO : 212220230030
 from tensorflow import keras
 from tensorflow.keras import layers
 from tensorflow.keras import utils
@@ -89,12 +91,9 @@ for i in range(1, n + 1):
     ax.get_yaxis().set_visible(False)
 plt.show()
 ```
-
 ## OUTPUT
 ![Screenshot from 2022-11-08 18-15-00](https://user-images.githubusercontent.com/75235212/200566849-4a550bf0-b7ab-4807-84d2-fe149915e823.png)
-
 ### Original vs Noisy Vs Reconstructed Image
 ![Screenshot from 2022-11-08 18-15-13](https://user-images.githubusercontent.com/75235212/200566863-647a6dac-83d0-48a5-87b5-c20a3b54c83d.png)
-
 ## RESULT
 Thus we have successfully developed a convolutional autoencoder for image denoising application.
