@@ -92,8 +92,10 @@ for i in range(1, n + 1):
 plt.show()
 ```
 ## OUTPUT
-![Screenshot from 2022-11-08 18-15-00](https://user-images.githubusercontent.com/75235212/200566849-4a550bf0-b7ab-4807-84d2-fe149915e823.png)
+<img src ="https://user-images.githubusercontent.com/75235212/200566849-4a550bf0-b7ab-4807-84d2-fe149915e823.png" width ="50%" height="40%">
+
 ### Original vs Noisy Vs Reconstructed Image
-![Screenshot from 2022-11-08 18-15-13](https://user-images.githubusercontent.com/75235212/200566863-647a6dac-83d0-48a5-87b5-c20a3b54c83d.png)
+<img src ="https://user-images.githubusercontent.com/75235212/200566863-647a6dac-83d0-48a5-87b5-c20a3b54c83d.png" width ="50%" height="40%">
+
 ## RESULT
 Thus we have successfully developed a convolutional autoencoder for image denoising application.
